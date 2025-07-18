@@ -1,20 +1,3 @@
-# Ignore PHP files
-*.php
-
-# Ignore HTML files
-*.html
-
-# Ignore CSS files
-*.css
-
-# Ignore JS files
-*.js
-
-# Ignore images
-*.png
-*.jpg
-*.gif
-
 # Ignore logs
 logs
 
