@@ -18,4 +18,3 @@ function verify_csrf() {
         }
     }
 }
-?>

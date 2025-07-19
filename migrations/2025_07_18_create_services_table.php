@@ -5,14 +5,15 @@ return function($conn) {
         name VARCHAR(100) NOT NULL,
         description TEXT,
         price DECIMAL(10,2),
-        users_id INT,
-        bookings_id INT,
-        FOREIGN KEY (users_id) REFERENCES users(id) ON DELETE SET NULL
+        users_id INT DEFAULT NULL,
+        bookings_id INT DEFAULT NULL,
+        FOREIGN KEY (users_id) REFERENCES users(id) ON DELETE SET NULL,
         FOREIGN KEY (bookings_id) REFERENCES bookings(id) ON DELETE SET NULL
-    )";
+    ) ENGINE=InnoDB";
+
     if ($conn->query($sql) === TRUE) {
-        echo "Created 'services' table\n";
+        echo "✅ Created 'services' table\n";
     } else {
-        echo "Error creating 'services': " . $conn->error . "\n";
+        echo "❌ Error creating 'services': " . $conn->error . "\n";
     }
 };
