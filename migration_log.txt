@@ -1,5 +1,0 @@
-2025_07_18_001_create_roles_table.php
-2025_07_18__002_create_users_table.php
-2025_07_18_create_bookings_table.php
-2025_07_18_create_enquiries_table.php
-2025_07_18_create_services_table.php
