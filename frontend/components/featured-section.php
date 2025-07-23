@@ -8,5 +8,31 @@
                 <h3>250ml Glass Jar - Nananom Farms Palm Oil</h3>
                 <p>Perfect for home use, cooking, and portion control.</p>
             </div>
+            <div class="featured">
+                <img src="assets/images/250ml_jar.png" alt="Featured Product 1">
+                <h3>250ml Glass Jar - Nananom Farms Palm Oil</h3>
+                <p>Perfect for home use, cooking, and portion control.</p>
+            </div>
+            <div class="featured">
+                <img src="assets/images/250ml_jar.png" alt="Featured Product 1">
+                <h3>250ml Glass Jar - Nananom Farms Palm Oil</h3>
+                <p>Perfect for home use, cooking, and portion control.</p>
+            </div>
+            <div class="featured">
+                <img src="assets/images/250ml_jar.png" alt="Featured Product 1">
+                <h3>250ml Glass Jar - Nananom Farms Palm Oil</h3>
+                <p>Perfect for home use, cooking, and portion control.</p>
+            </div>
+            <div class="featured">
+                <img src="assets/images/250ml_jar.png" alt="Featured Product 1">
+                <h3>250ml Glass Jar - Nananom Farms Palm Oil</h3>
+                <p>Perfect for home use, cooking, and portion control.</p>
+            </div>
+            <div class="featured">
+                <img src="assets/images/250ml_jar.png" alt="Featured Product 1">
+                <h3>250ml Glass Jar - Nananom Farms Palm Oil</h3>
+                <p>Perfect for home use, cooking, and portion control.</p>
+            </div>
         </div>
+
 </section>

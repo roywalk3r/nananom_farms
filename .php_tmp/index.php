@@ -66,6 +66,7 @@ include_once __DIR__ . '/partials/header.php';
             </a>
         </div>
         <?php include_once __DIR__ . '/components/featured-section.php'; ?>
+        <?php include_once __DIR__ . '/components/what-we-offer.php'; ?>
         <?php include_once __DIR__ . '/components/testimonials.php'; ?>
         <?php include_once __DIR__ . '/components/cta.php'; ?>
 
@@ -85,6 +86,20 @@ include_once __DIR__ . '/partials/footer.php';
             el: ".swiper-pagination",
             clickable: true,
         },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+        }
     });
     </script>
 

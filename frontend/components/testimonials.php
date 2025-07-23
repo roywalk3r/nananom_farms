@@ -12,7 +12,7 @@
                       <i class="fa-solid fa-star"></i>
                   </div>
                   <p>"Nananom Farms has transformed our palm oil sourcing. Their quality is unmatched, exceptional
-                      service!"</p>
+                      service!. Highly recommended!"</p>
                   <div class="profile-section">
                       <img src="assets/images/avatars/profile_1.jpg" alt="Profile Picture">
                       <div class="profile-info">
@@ -47,8 +47,8 @@
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star-half"></i>
                   </div>
-                  <p>"Nananom Farms palm oil has a natural taste and color. l love that it’s affordable and
-                      locally made."</p>
+                  <p>"I have been using Nananom Farms for years and they always deliver on time. Even when I'm outside
+                      the country, I still receive quality oil."</p>
                   <div class="profile-section">
                       <img src="assets/images/avatars/profile_3.jpg" alt="Profile Picture">
                       <div class="profile-info">
