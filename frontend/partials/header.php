@@ -12,7 +12,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="about.php">About Us</a></li>
             <li><a href="services.php">Service Booking</a></li>
-            <li><a href="contact.php">General Enquiries</a></li>
+            <li><a href="enquiries.php">General Enquiries</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="login.php">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
         </ul>
