@@ -90,15 +90,49 @@
         </div>
         <!-----locaction section----->
         <div class="contact-card">
-          
-                <div class="title">Contact Information</div>
-            
+            <div class="title">Contact Information</div>
+            <div class="text" style="display: flex; flex-direction: column; gap: 10px; font-family: 'Poppins', sans-serif;">
+                <a href="#" style="display: flex; align-items: center; gap: 8px; color: black; text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z" />
+                    </svg>
+                    Location: Nananom Farms, Accra, Ghana
+                </a>
+                <a href="tel:+233546666123" style="display: flex; align-items: center; gap: 8px; color: black; text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1c-9.39 0-17-7.61-17-17a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.2 2.2z" />
+                    </svg>
+                    Phone: +233 546 666 123
+                </a>
+                <a href="mailto:info@nananomfarms.com" style="display: flex; align-items: center; gap: 8px; color: black; text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.99l8 6 8-6V18H4z" />
+                    </svg>
+                    Email: info@nananomfarms.com
+                </a>
+                <a href="https://wa.me/233546666123" target="_blank" style="display: flex; align-items: center; gap: 8px; color: black; text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#25D366" viewBox="0 0 32 32">
+                        <path d="M16.003 5.333c-5.896 0-10.667 4.771-10.667 10.667 0 1.885.495 3.726 1.434 5.351L5.334 27l5.812-1.414a10.64 10.64 0 0 0 4.857 1.147c5.895 0 10.667-4.771 10.667-10.667 0-2.844-1.108-5.518-3.119-7.529S18.847 5.333 16.003 5.333zm0 2c2.242 0 4.35.873 5.933 2.457s2.467 3.692 2.467 5.877c0 4.718-3.749 8.666-8.667 8.666-1.53 0-3.028-.418-4.337-1.209l-.62-.367-3.43.835.912-3.303-.402-.654a8.63 8.63 0 0 1-1.276-4.435c0-4.718 3.749-8.667 8.666-8.667zm-3.08 5.581c-.138 0-.283.008-.424.031-.408.065-.817.31-1.06.677-.423.65-.87 2.012 1.066 4.347 1.838 2.243 3.52 2.757 4.37 2.757.347 0 .642-.042.874-.114.592-.186 1.058-.75 1.2-1.193.1-.318.131-.703.02-.958s-.186-.296-.373-.387l-1.626-.764c-.284-.133-.492-.046-.68.157l-.36.4c-.048.054-.154.18-.213.171-.06-.008-.495-.137-1.07-.677-.532-.497-.718-.88-.799-1.06-.078-.175-.008-.28.046-.35.05-.066.119-.155.18-.24.06-.086.13-.17.185-.263.105-.174.183-.42.119-.662-.063-.24-.43-1.013-.597-1.303-.148-.26-.434-.41-.77-.414z" />
+                    </svg>
+                    WhatsApp: +233 546 666 123
+                </a>
+            </div>
 
-            <div class="text location">Location: Nananom Farms, Accra, Ghana</div>
-            <div class="text phone">Phone: +233 546 666 123</div>
-            <div class="text email">Email: info@nananomfarms.com</div>
-            <div class="text whatsapp">WhatsApp: +233 546 666 123</div>
+        </div>
+         <!-----locaction section----->
 
+          <!-----submit enquiry----->
+          <div class="hero">
+            <div class="overlay"></div>
+            <div class="hero-image">
+                <img src="assets/images/OTHER_OPTION_1.png" alt="Hero Image">
+            </div>
+
+            <div class="hero-content">
+                <h2>We’re Here Whenever You Need Us</h2>
+                <p>Send us a message today and we’re always ready to answer your questions and support your needs.</p>
+                <a href="enquiries.php" class="ctaBtn ctaBt-main">Submit Enquiry</a>
+            </div>
         </div>
 
 
