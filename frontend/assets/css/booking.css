@@ -1,119 +1,142 @@
-/* Reset and font setup */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-}
-
-.form-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
-  background-color:#efd6a7;
-}
-
-.form-card {
-  background: #efd6a7;
-  border-radius: 16px;
-  padding: 40px;
-  max-width: 600px;
-  width: 100%;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.subheading {
-  font-size: 16px;
-  color: #555;
-  margin-bottom: 30px;
-}
-
-.input-group {
-  margin-bottom: 20px;
+/* Section: Why Book With Us */
+.booking-reasons {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background: #efd6a7;
+  border-radius: 20px;
+  padding: 40px 20px;
+  max-width: 1290px;
+  margin-bottom: 20px;
 }
 
-.input-group.full-width {
-  width: 100%;
+.booking-reasons h2 {
+  color: #31610d;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-label {
-  margin-bottom: 6px;
-  font-weight: 500;
-  color: #333;
+.booking-reasons p.subtitle {
+  color: #31610d;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-input,
-select,
-textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 14px;
-  transition: border-color 0.3s;
-}
-
-input:focus,
-select:focus,
-textarea:focus {
-  border-color: #6f42c1;
-  outline: none;
-}
-
-textarea {
-  resize: vertical;
-  min-height: 100px;
-}
-
-.submit-container {
-  margin-top: 20px;
+.booking-reasons ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   text-align: right;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
-button {
-  padding: 12px 24px;
-  background-color: #6f42c1;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+.booking-reasons li {
+  display: flex;
+  
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #000;
+  letter-spacing: 0.1px;
 }
 
-button:hover {
-  background-color: #5a359c;
+.booking-reasons li svg {
+  flex-shrink: 0;
+  margin-right: 20px;
+  width: 41px;
+  height: 42px;
 }
 
-.thank-you {
-  margin-top: 30px;
-  padding: 16px;
-  background-color: #e9f7ef;
-  border: 1px solid #c3e6cb;
-  border-radius: 8px;
-  color: #155724;
-  display: none; /* Hidden by default */
+@media (max-width: 768px) {
+  .booking-reasons h2 {
+    font-size: 28px;
+  }
+  .booking-reasons p.subtitle {
+    font-size: 18px;
+  }
+  .booking-reasons li {
+    font-size: 20px;
+  }
 }
 
-@media (max-width: 600px) {
-  .form-card {
-    padding: 20px;
+@media (max-width: 480px) {
+  .booking-reasons li svg {
+    width: 28px;
+    height: 28px;
+    margin-right: 12px;
   }
-  h1 {
-    font-size: 24px;
-  }
-  .subheading {
-    font-size: 14px;
-  }
-  button {
-    width: 100%;
+  .booking-reasons li {
+    font-size: 18px;
   }
 }
+
+
+/* Section: How It Works */
+.how-it-works {
+  position: relative;
+  background: #EFD6A7;
+  border-radius: 20px;
+  padding: 40px 20px;
+  max-width: 1290px;
+  margin: 40px auto;
+}
+
+.how-it-works h2 {
+  color: #31610D;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.how-it-works p.subtitle {
+  color: #31610D;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-it-works .step {
+  margin-bottom: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-it-works .step h3 {
+  font-size: 22px;
+  color: #31610D;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.how-it-works .step p {
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .how-it-works h2 {
+    font-size: 20px;
+  }
+  .how-it-works p.subtitle,
+  .how-it-works .step p {
+    font-size: 16px;
+  }
+  .how-it-works .step h3 {
+    font-size: 22px;
+  }
+}
+

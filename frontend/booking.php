@@ -15,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- <link rel="stylesheet" href="assets/css/booking.css">--->
+    <link rel="stylesheet" href="assets/css/booking.css">
     <link rel="stylesheet" href="assets/css/enquiries.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
@@ -58,11 +58,11 @@
                     </div>
                 </div>
                 <div class="row">
-                     <div class="input-group">
+                    <div class="input-group">
                         <label for="phone">Phone Number</label>
                         <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
                     </div>
-                     <div class="input-group">
+                    <div class="input-group">
                         <label for="date">Preferred Date</label>
                         <input type="date" id="date" name="date" required>
                     </div>
@@ -71,7 +71,7 @@
 
 
                 <div class="row">
-                   
+
 
                     <div class="input-group">
                         <label for="time">Preferred Time</label>
@@ -105,6 +105,89 @@
         </div>
         </div>
 
+
+
+        <!---reasons for booking with us section--->
+        <div class="booking-reasons">
+            <h2>Why Book With Nananom Farms?</h2>
+            <p class="subtitle">We provide exceptional value, quality produce, and unmatched service.</p>
+            <ul>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#31610D" viewBox="0 0 24 24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                    </svg>
+                    Trusted Local Farm
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#31610D" viewBox="0 0 24 24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                    </svg>
+                    Organic & Fresh Produce
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#31610D" viewBox="0 0 24 24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                    </svg>
+                    Quick & Easy Booking
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#31610D" viewBox="0 0 24 24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                    </svg>
+                    Nationwide Delivery
+                </li>
+            </ul>
+        </div>
+
+        <!---how it works section--->
+        <div class="how-it-works">
+            <h2>How It Works</h2>
+            <p class="subtitle">Booking with us is simple. Here’s what to expect after you submit your form.</p>
+
+            <div class="step">
+                <h3>1. Fill Out the Booking Form</h3>
+                <p>Provide your details and select your preferred service.</p>
+            </div>
+
+            <div class="step">
+                <h3>2. We Review Your Request</h3>
+                <p>Our team checks your information and confirms availability.</p>
+            </div>
+
+            <div class="step">
+                <h3>3. Get a Confirmation from Us</h3>
+                <p>We contact you to confirm your booking and discuss details.</p>
+            </div>
+
+            <div class="step">
+                <h3>4. Enjoy Our Service</h3>
+                <p>Sit back as we deliver quality service right on time.</p>
+            </div>
+        </div>
+
+        <!---frequently asked questions--->
+        <div class="how-it-works">
+            <h2>Frequently Asked Questions</h2>
+            <div class="step">
+                <h3>Q1 : How long does it take to confirm a service booking?
+                </h3>
+                <p>Ans : We’ll reach out within 24 hours after you submit your booking request.</p>
+            </div>
+
+            <div class="step">
+                <h3>Q2 : Can I change my booking details after submission?</h3>
+                <p> Ans : Yes! Simply contact our support team to make any changes.</p>
+            </div>
+
+            <div class="step">
+                <h3>Q3 : Do I need to make payment when booking?</h3>
+                <p>Ans : No upfront payment is required. Payments details will be discussed during confirmationp>
+            </div>
+
+        </div>
+
+
+
         <div class="hero">
             <div class="overlay"></div>
             <div class="hero-image">
@@ -117,7 +200,6 @@
                 <a href="enquiries.php" class="ctaBtn ctaBt-main">Book now</a>
             </div>
         </div>
-
 
     </main>
     <?php
