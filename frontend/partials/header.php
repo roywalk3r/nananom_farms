@@ -1,7 +1,7 @@
 <header>
     <nav>
         <div class="logo">
-            <a href="/index.php"><img src="/frontend/assets/images/logo.png" alt="Logo"></a>
+            <a href="/index.php"><img src="assets/images/nananom-logo.png" alt="Logo"></a>
         </div>
         <div class="menu-toggle">
             <span></span>
@@ -10,9 +10,9 @@
         </div>
         <ul class="nav-menu">
             <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="services.php">Service Booking</a></li>
-            <li><a href="contact.php">General Enquiries</a></li>
+            <li><a href="about-us.php">About Us</a></li>
+            <li><a href="booking.php">Service Booking</a></li>
+            <li><a href="enquiries.php">General Enquiries</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="login.php">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
         </ul>
