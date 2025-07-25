@@ -56,20 +56,22 @@
                         <label for="email">Email Address</label>
                         <input type="email" id="email" name="email" placeholder="Enter your email address" required>
                     </div>
-
-                    <div class="input-group">
+                </div>
+                <div class="row">
+                     <div class="input-group">
                         <label for="phone">Phone Number</label>
                         <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                     <div class="input-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
                     </div>
                 </div>
 
 
 
                 <div class="row">
-                    <div class="input-group">
-                        <label for="date">Preferred Date</label>
-                        <input type="date" id="date" name="date" required>
-                    </div>
+                   
 
                     <div class="input-group">
                         <label for="time">Preferred Time</label>
