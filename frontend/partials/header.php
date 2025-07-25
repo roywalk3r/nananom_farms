@@ -1,7 +1,7 @@
 <header>
     <nav>
         <div class="logo">
-            <a href="/index.php"><img src="/frontend/assets/images/logo.png" alt="Logo"></a>
+            <a href="/index.php"><img src="assets/images/nananom-logo.png" alt="Logo"></a>
         </div>
         <div class="menu-toggle">
             <span></span>
