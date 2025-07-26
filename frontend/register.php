@@ -18,10 +18,10 @@
                 <img src="assets/images/loginPic.png" alt="login image">
             </div>
             <div class="auth-right">
-                <form action="login.php" method="POST">
+                <form action="../backend/register.php" method="POST">
                     <div class="form-group">
                         <label for="username">Username</label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <input type="text" id="username" name="username" placeholder="Enter your username" required>
                     </div>
                    <div class="form-group">
                      <label for="email">Email Address</label>
