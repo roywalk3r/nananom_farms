@@ -23,13 +23,25 @@
                         <label for="username">Username</label>
                         <input type="email" id="email" name="email" placeholder="Enter your email" required>
                     </div>
+                   <div class="form-group">
+                     <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                   </div>
+                   <div class="form-group">
+                      <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                   </div>
                     <div class="form-group">
                         <label for="password">Password</label>
                         <input type="password" id="password" placeholder="Enter your password" name="password" required>
                     </div>
-                    <button type="submit">Login</button>
+                    <div class="form-group">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id="confirm_password" placeholder="Confirm your password" name="confirm_password" required>
+                    </div>
+                    <button type="submit">Register</button>
                 </form>
-                <p class="already_have">Don't have an account? <a href="register.php">Sign up</a></p>
+                <p class="already_have">Already have an account? <a href="login.php">Log in</a></p>
             </div>
 
         </div>
