@@ -7,7 +7,7 @@ return function($conn) {
         password VARCHAR(255) NOT NULL,
         role_id INT,
         FOREIGN KEY (role_id) REFERENCES roles(id) ON DELETE SET NULL
-    )";
+        )";
     if ($conn->query($sql) === TRUE) {
         echo "Created 'users' table\n";
     } else {

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #31610d;
+}
+
+.newsletter-container {
+  background: #efd6a7;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pic {
+  width: 50%;
+  background: url('../images/CTA_section.png') no-repeat center center;
+  background-size: cover;
+}
+
+.newsletter {
+  width: 50%;
+  padding: 200px 8%;
+}
+
+.newsletter h1 {
+  margin-bottom: 20px;
+  color: #31610d;
+  font-weight: 900;
+}
+
+.newsletter p {
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #80d93b;
+}
+
+.newsletter-form {
+  height: 68px;
+  background-color: #31610d;
+  border-radius: 4px;
+  display: flex;
+  padding: 8px 0;
+}
+
+.email,
+.btn {
+  background: none;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  transition: 0.2s linear;
+}
+
+.email {
+  width: calc(100% - 120px);
+  padding: 20px;
+  color: #fefffe;
+}
+
+.email::placeholder {
+  color: #fefffe;
+}
+
+.email:focus {
+  padding-left: 30px;
+}
+
+.btn {
+  width: 120px;
+  text-transform: uppercase;
+  color: #fefffe;
+  border-left: 1px solid #fefffe;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #80d93b;
+}
+
+@media screen and (max-width: 900px) {
+  .pic {
+    width: 100%;
+    height: 360px;
+  }
+  .newsletter {
+    width: 100%;
+    padding: 100px 20%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .newsletter {
+    padding: 100px 20%;
+  }
+}
