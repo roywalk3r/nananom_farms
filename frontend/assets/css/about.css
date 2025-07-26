@@ -112,7 +112,7 @@
 .about-cards .about-card p {
   font-weight: 500;
   font-size: 32px;
-  color: v#444;
+  color: #444;
 }
 
 @media (max-width: 540px) {
