@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | Nananom Farms</title>
     <link rel="stylesheet" href="assets/css/auth.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -18,16 +19,22 @@
                 <img src="assets/images/loginPic.png" alt="login image">
             </div>
             <div class="auth-right">
-                <form action="login.php" method="POST">
+                <form id="loginForm">
                     <div class="form-group">
+<<<<<<< HEAD
                         <label for="username">Username</label>
                         <input type="text" id="username" name="username" placeholder="Enter your username" required>
+=======
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+>>>>>>> 90b29e2fd10df1e975db2c2a4687b798e24b4b53
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
                         <input type="password" id="password" placeholder="Enter your password" name="password" required>
                     </div>
                     <button type="submit">Login</button>
+                    <div id="loginMessage" style="margin-top:10px;"></div>
                 </form>
                 <p class="already_have">Don't have an account? <a href="register.php">Sign up</a></p>
             </div>
@@ -35,5 +42,6 @@
         </div>
     </div>
 </body>
-
+<script src="assets/js/login.js"></script>
+<script src="assets/js/toast.js"></script>
 </html>
