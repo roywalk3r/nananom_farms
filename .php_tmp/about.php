@@ -11,17 +11,15 @@
 </head>
 
 <body>
-    <?php
-include_once __DIR__ . '/partials/header.php';
-?> <main class="container about-page">
+    <main class="container">
         <div class="hero">
             <div class="overlay"></div>
             <div class="hero-image">
                 <img src="assets/images/about_pic.png" alt="Hero Image">
             </div>
             <div class="about-page-content hero-content">
-                <h2>About Us</h2>
-                <p>Rooted in tradition, Grown with purpose.</p>
+                <h2>About Nananom Farms</h2>
+                <h3>Rooted in tradition, Grown with purpose.</h3>
             </div>
         </div>
         <div class="about-us">
@@ -49,7 +47,6 @@ include_once __DIR__ . '/partials/header.php';
         </div>
         <div class="about">
             <img src="assets/images/about_us_pic_on_VALUES.png" alt="About Page Pic">
-            <div class="overlay"></div>
             <div class="about__content">
                 <h2>OUR VALUES</h2>
                 <p>We value honesty, quality, and community. We belive in natural farming delivering pure products, and
@@ -65,151 +62,16 @@ include_once __DIR__ . '/partials/header.php';
                         sustainability, and community impact.</p>
                 </div>
                 <div class="about-card">
-                    <div class="card-heading">
-                        <i class="fas fa-rocket"></i>
-                        <h3>Our Mission</h3>
-                    </div>
-                    <p>To deliver pure, natural palm oil that promotes healthy living while empowering local farmers and
-                        communities across Ghana.</p>
+                    i.fas.fa
+                    <h3>Our Mission</h3>
                 </div>
                 <div class="about-card">
-                    <div class="card-heading">
-                        <i class="fa-solid fa-bullseye"></i>
-                        <h3>Target</h3>
-                    </div>
-                    <p>We aim to supply pure palm oil to families, retailers, and business across Ghana and beyond.</p>
+                    <h3>Target</h3>
                 </div>
             </div>
         </div>
-        <div class="why-choose-us hero">
-            <h2>Why Choose Us</h2>
-            <div class="why-choose-content">
-                <div class="why-choose-item">
-                    <i class="fas fa-leaf"></i>
-                    <h3>Natural Goodness</h3>
-                    <p>Our palm oil is 100% natural, free from additives and preservatives, ensuring you get the purest
-                        product.</p>
-                </div>
-                <div class="why-choose-item">
-                    <i class="fas fa-hand-holding-heart"></i>
-                    <h3>Community Impact</h3>
-                    <p>We support local farmers and communities, ensuring fair wages and sustainable practices that
-                        uplift
-                        lives.</p>
-                </div>
-                <div class="why-choose-item">
-                    <i class="fas fa-leaf"></i>
-                    <h3>Quality Assurance</h3>
-                    <p>Our quality control system ensures every batch meets our stringent standards, delivering
-                        consistency and excellence.</p>
-                </div>
-                <div class="why-choose-item">
-                    <i class="fas fa-shipping-fast"></i>
-                    <h3>Fast Delivery</h3>
-                    <p>We ensure prompt delivery to your doorstep, so you can enjoy our products without delay.</p>
-                </div>
-                <div class="why-choose-item">
-                    <i class="fas fa-users"></i>
-                    <h3>Customer Care</h3>
-                    <p>Our dedicated team is here to assist you with any inquiries or support you need, ensuring a
-                        seamless experience.</p>
-                </div>
-                <div class="why-choose-item">
-                    <i class="fas fa-award"></i>
-                    <h3>Trusted Brand</h3>
-                    <p>With years of experience, we have built a reputation for quality and reliability in the palm oil
-                        industry.</p>
-                </div>
-                <div class="why-choose-item">
-                    <i class="fas fa-seedling"></i>
-                    <h3>Sustainable Practices</h3>
-                    <p>We are committed to sustainable farming practices that protect the environment and promote
-                        biodiversity.</p>
-                </div>
-                <div class="why-choose-item">
-                    <i class="fas fa-thumbs-up"></i>
-                    <h3>Customer Satisfaction</h3>
-                    <p>Your satisfaction is our priority. We strive to exceed your expectations with every product and
-                        service.</p>
-                </div>
-                <div class="why-choose-item">
-                    <i class="fas fa-heart"></i>
-                    <h3>Passion for Quality</h3>
-                    <p>Our passion for quality drives us to continuously improve our products and services, ensuring you
-                        receive the best.</p>
-                </div>
-            </div>
-        </div>
-        <div class="founders">
-            <h2>Meet Our Founders</h2>
-            <div class="founders-content">
-                <div class="founder">
-                    <img src="assets/images/avatars/profile_1.jpg" alt="Founder 1">
-                    <div class="founder-content">
 
-                        <h3>Kwame Nkrumah</h3>
-                        <p>Founder & CEO.</p>
-                    </div>
-                </div>
-                <div class="founder">
-                    <img src="assets/images/avatars/profile_2.jpg" alt="Founder 1">
-                    <div class="founder-content">
-
-                        <h3>Kwame Nkrumah</h3>
-                        <p>Founder & CEO.</p>
-                    </div>
-                </div>
-                <div class="founder">
-                    <img src="assets/images/avatars/profile_3.jpg" alt="Founder 1">
-                    <div class="founder-content">
-
-                        <h3>Kwame Nkrumah</h3>
-                        <p>Founder & CEO.</p>
-                    </div>
-                </div>
-                <div class="founder">
-                    <img src="assets/images/avatars/profile_4.jpg" alt="Founder 1">
-                    <div class="founder-content">
-
-                        <h3>Kwame Nkrumah</h3>
-                        <p>Founder & CEO.</p>
-                    </div>
-                </div>
-                <div class="founder">
-                    <img src="assets/images/avatars/profile_5.jpg" alt="Founder 1">
-                    <div class="founder-content">
-
-                        <h3>Kwame Nkrumah</h3>
-                        <p>Founder & CEO.</p>
-                    </div>
-                </div>
-                <div class="founder">
-                    <img src="assets/images/avatars/profile_6.jpg" alt="Founder 1">
-                    <div class="founder-content">
-
-                        <h3>Kwame Nkrumah</h3>
-                        <p>Founder & CEO.</p>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-        <div class="cta">
-            <div class="overlay cta-overlay"></div>
-            <img src="assets/images/about_us_CTA.png" alt="Call to Action Image">
-            <div class="cta-content">
-                <p>Be Part of our Jounery. Reach out to us today for quality palm oil you can trust!</p>
-                <a href="about.php" class="ctaBtn ctaBt-main">Get in Touch
-                    <i class="fa-solid fa-arrow-up-right-from-square showing-arrow"></i>
-                    <i class="fa-solid fa-arrow-right-from-bracket hidden-arrow"></i>
-                </a>
-            </div>
-        </div>
     </main>
-    <?php
-include_once __DIR__ . '/partials/footer.php';
-?>
 </body>
 
 </html>
