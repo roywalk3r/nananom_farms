@@ -42,6 +42,11 @@ $stmt->execute();
 $result = $stmt->get_result();
 $user = $result->fetch_assoc();
 
+error_log("Trying login for: $email");
+error_log("Entered password: $password");
+error_log("Stored hash: " . $user['password']);
+error_log("Verify result: " . (password_verify($password, $user['password']) ? 'true' : 'false'));
+
 if ($user && password_verify($password, $user['password'])) {
     login($user['id']);
     // Optionally set more session data here

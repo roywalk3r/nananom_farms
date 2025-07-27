@@ -19,11 +19,7 @@
                 <img src="assets/images/loginPic.png" alt="login image">
             </div>
             <div class="auth-right">
-<<<<<<< HEAD
-                <form action="../backend/register.php" method="POST">
-=======
-                <form id="registerForm">
->>>>>>> 90b29e2fd10df1e975db2c2a4687b798e24b4b53
+                <form action="../core/backend/register.php" method="POST">
                     <div class="form-group">
                         <label for="username">Username</label>
                         <input type="text" id="username" name="username" placeholder="Enter your username" required>

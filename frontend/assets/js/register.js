@@ -25,9 +25,11 @@ $(function() {
             url: getBackendUrl('register.php'),
             type: 'POST',
             data: {
-                name: username,
+                username: username,
                 email: email,
-                password: password
+                phone: phone,
+                password: password,
+                confirm_password: confirm
             },
             dataType: 'json',
             success: function(data, textStatus, jqXHR) {

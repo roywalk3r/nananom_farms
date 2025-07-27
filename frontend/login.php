@@ -21,13 +21,8 @@
             <div class="auth-right">
                 <form id="loginForm">
                     <div class="form-group">
-<<<<<<< HEAD
-                        <label for="username">Username</label>
-                        <input type="text" id="username" name="username" placeholder="Enter your username" required>
-=======
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" placeholder="Enter your email" required>
->>>>>>> 90b29e2fd10df1e975db2c2a4687b798e24b4b53
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
