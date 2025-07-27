@@ -18,8 +18,7 @@ if (is_logged_in()) {
     send_json(['success' => false, 'message' => 'Already logged in.'], 400);
 }
 
-// login.php - Professional backend login handler
-require_once '../../database.php';
+ require_once '../../database.php';
 
 header('Content-Type: application/json');
 

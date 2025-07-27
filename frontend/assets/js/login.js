@@ -56,3 +56,7 @@ $(function() {
         });
     });
 });
+// Return to login homepage on fa-rectangle-xmark click
+$('.fa-rectangle-xmark').on('click', function() {
+    window.location.href = 'index.php';
+});

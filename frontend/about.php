@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nananom Farms - Rooted in tradition, Grown with purpose</title>
+    <title>About |Nananom Farms</title>
     <link rel="stylesheet" href="assets/css/about.css">
     <script src="https://kit.fontawesome.com/00a449879e.js" crossorigin="anonymous"></script>
 

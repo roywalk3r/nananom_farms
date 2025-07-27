@@ -6,6 +6,7 @@ $adminEmail = 'admin@nananom.com';
 $adminName = 'Administrator';
 $adminPassword = 'admin1234'; // Change after first login!
 $role_id = 1; // 1 = admin
+$phone = '1234567890'; // Placeholder phone number
 
 // Check if admin role exists
 $roleStmt = $conn->prepare('SELECT id FROM roles WHERE id = ?');
@@ -23,8 +24,8 @@ $stmt->execute();
 $stmt->store_result();
 if ($stmt->num_rows === 0) {
     $hash = password_hash($adminPassword, PASSWORD_DEFAULT);
-    $insert = $conn->prepare('INSERT INTO users (name, email, password, role_id) VALUES (?, ?, ?, ?)');
-    $insert->bind_param('sssi', $adminName, $adminEmail, $hash, $role_id);
+    $insert = $conn->prepare('INSERT INTO users (name, email, phone, password, role_id) VALUES (?, ?, ?, ?, ?)');
+    $insert->bind_param('ssssi', $adminName, $adminEmail, $phone, $hash, $role_id);
     if ($insert->execute()) {
         echo "✅ Admin user created: $adminEmail\n";
     } else {

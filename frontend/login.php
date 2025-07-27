@@ -7,12 +7,15 @@
     <title>Login | Nananom Farms</title>
     <link rel="stylesheet" href="assets/css/auth.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/00a449879e.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <div class="auth-container">
+        <i class="fa-solid fa-rectangle-xmark"></i>
         <img src="assets/images/logo.png" alt="Nananom Farms Logo" class="logo">
-        <h2>Welcome Back!</h2>
+        <h1>Welcome Back!</h1>
         <p>Login to manage your account.</p>
         <div class="auth-page">
             <div class="auth-left">
@@ -39,4 +42,5 @@
 </body>
 <script src="assets/js/login.js"></script>
 <script src="assets/js/toast.js"></script>
+
 </html>

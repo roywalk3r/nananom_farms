@@ -62,3 +62,8 @@ $(function() {
         });
     });
 });
+
+
+$('.fa-rectangle-xmark').on('click', function() {
+    window.location.href = 'index.php';
+});
