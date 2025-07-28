@@ -46,7 +46,7 @@ include_once __DIR__ . '/partials/header.php';
             <div class="form-container">
                 <h1>Send Us a Message</h1>
                 <p class="subtitle">Have a question? We’ll be glad to assist you.</p>
-                <form>
+                <form action="core/backend/submit_enquiry.php" method="POST" id="enquiryForm">
                     <div class="row">
                         <div class="input-group">
                             <label for="full_name">Full Name</label>
@@ -167,6 +167,7 @@ include_once __DIR__ . '/partials/header.php';
     <?php
 include_once __DIR__ . '/partials/footer.php';
 ?>
+<script src="assets/js/enquiries.js"></script>
 </body>
 
 </html>
