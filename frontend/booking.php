@@ -48,7 +48,7 @@ include_once __DIR__ . '/partials/header.php';
             <h1>Book a service</h1>
             <p class="subheading">We’re ready to serve you! Book a service appointment by providing your details below.
             </p>
-            <form action="submit.php" method="POST">
+            <form action="../../core/backend/booking.php" method="POST">
                 <div class="row">
                     <div class="input-group">
                         <label for="fullName">Full Name</label>
