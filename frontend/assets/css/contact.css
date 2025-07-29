@@ -1,0 +1,143 @@
+@import url(./style.css);
+@import url(./enquiries.css);
+.contact-container {
+    background: #efd6a7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 2px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    max-width: 1400px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contact-container h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.farmer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.farmer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.booking-container {
+    flex: 1 ;
+    background:  #efd6a7;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.booking-container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.form-group input {
+    padding: 5px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background:  #efd6a7;
+}
+
+.booking-form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;;
+}
+button {
+  background: #407c12;
+  color: white;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.after-submit {
+  opacity: 0.4;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 1305px;
+    height: 590px;
+    background: #EFD6A7;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .form-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .booking-container, .farmer {
+        width: 100%;
+        padding: 0;
+    }
+
+    .booking-form {
+        width: 100%;
+    }
+
+    .form-group input {
+        width: 100%;
+    }
+}
