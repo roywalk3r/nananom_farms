@@ -39,7 +39,7 @@ include_once __DIR__ . '/partials/header.php';
                 <h2>Your Trusted Palm Oil Partner</h2>
                 <p>Delivering Premium palm oil and reliable farm services, experience,quality tradition, and trust with
                     Nananom Farms.</p>
-                <a href="about.php" class="ctaBtn ctaBt-main">Book a Service</a>
+                <a href="booking.php" class="ctaBtn ctaBt-main">Book a Service</a>
             </div>
         </div>
         <div class="about-us">

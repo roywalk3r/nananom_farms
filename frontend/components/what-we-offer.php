@@ -32,8 +32,10 @@
             <p>Providing fresh palm oil directly to customers in all available sizes.</p>
         </div>
     </div>
-    <div class="ctaBtn ctaBt-main">Book a Service
+    <a href="booking.php">
+    <div class="ctaBtn ctaBt-main"> Book a Service
         <i class="fa-solid fa-arrow-up-right-from-square showing-arrow"></i>
         <i class="fa-solid fa-arrow-right-from-bracket hidden-arrow"></i>
     </div>
+    </a>
 </section>

@@ -50,3 +50,12 @@ Connected to 'nananom' successfully.
 ✅ Migrated 2025_07_19_000000_create_migrations_table.php
 ✅ Migrated 2025_07_19_create_feeback_table.php
 ✅ Migrated 2025_07_19_create_session_table.php
+Connected to 'nananom' successfully.
+✅ Migrated 2025_07_18_001_create_roles_table.php
+✅ Migrated 2025_07_18__002_create_users_table.php
+✅ Migrated 2025_07_18_create_bookings_table.php
+✅ Migrated 2025_07_18_create_enquiries_table.php
+✅ Migrated 2025_07_18_create_services_table.php
+✅ Migrated 2025_07_19_000000_create_migrations_table.php
+✅ Migrated 2025_07_19_create_feeback_table.php
+✅ Migrated 2025_07_19_create_session_table.php

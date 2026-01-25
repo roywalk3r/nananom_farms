@@ -26,6 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if ($stmt->execute()) {
         echo "✅ Booking successful!";
+        redirectTo('booking.php');
     } else {
         echo "❌ Error: " . $stmt->error;
     }

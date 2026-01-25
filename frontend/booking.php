@@ -52,7 +52,7 @@ include_once __DIR__ . '/partials/header.php';
                 <div class="row">
                     <div class="input-group">
                         <label for="fullName">Full Name</label>
-                        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                        <input type="text" id="fullName" name="customer_name" placeholder="Enter your full name" required>
                     </div>
 
                     <div class="input-group">
@@ -67,7 +67,7 @@ include_once __DIR__ . '/partials/header.php';
                     </div>
                     <div class="input-group">
                         <label for="date">Preferred Date</label>
-                        <input type="date" id="date" name="date" required>
+                        <input type="date" id="date" name="appointment_date" required>
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@ include_once __DIR__ . '/partials/header.php';
 
                     <div class="input-group">
                         <label for="type">Service Type</label>
-                        <select id="type" name="type" required>
+                        <select id="type" name="service" required>
                             <option value="">-Select Type-</option>
                             <option value="Consultation">Consultation</option>
                             <option value="Site Visit">Site Visit</option>
